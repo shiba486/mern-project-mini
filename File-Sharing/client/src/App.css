@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.image-side img{
+  max-width: 30%;
+}
+.upload-side{
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.upload-side h1{
+  font-size: 40px;
+  font-weight: 400;
+  color: #00806f;
+  margin: 40px 0;
+}
+.upload-side p{
+  font-size: 25px;
+}
+.upload-side button{
+  width: 150px;
+  height: 40px;
+  border: 1px solid #00806f ;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #00806f;
+  font-size: 25px;
+  margin: 30px;
+}
+
+
